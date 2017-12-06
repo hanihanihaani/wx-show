@@ -1,0 +1,32 @@
+/**index.wxss**/
+.content button {
+  margin-top: -31px;
+  color: #fff;
+  background-color: #000;
+  height: 24px;
+  width: 100px;
+  line-height: 1.5555555600000008;
+  border-radius: 0;
+  font-size: 14px
+}
+.logo-text {
+  font-size: 14px;
+}
+.content image {
+  position: relative
+}
+.content text {
+  margin-top: -60px;
+  color: #fff;
+  position: absolute;
+  top: 211px;
+  left: 50%;
+  margin-left: -34px;
+  font-size: 14px
+}
+.content image:nth-of-type(1) {
+  margin-top: 20px;
+}
+.content image {
+  margin-top: -5px;
+}

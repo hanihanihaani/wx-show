@@ -1,0 +1,17 @@
+/* pages/allcars/allcars.wxss */
+.allcars {
+  width: 90%;
+  height: 90px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  line-height: 44px
+}
+.allcars .car-name {
+  font-size:14px;
+}
+.allcars .allcar {
+  width: 120px;
+  height: 50px;
+}

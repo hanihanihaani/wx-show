@@ -1,0 +1,26 @@
+<!--pages/connect/connect.wxml-->
+<view class='map'>
+  <map
+    longitude='113.867503' latitude='34.044592' scale='15' markers='{{markers}}'
+  ></map>
+</view>
+<view class='create'>
+  许昌学院创新创业园
+</view>
+<view class='address'>
+  <view class='left'>
+    <text>体验中心地址:</text>
+    <text>河南省许昌市魏都区许昌学院创新创业园</text>
+  </view>
+  <navigator url='/pages/location/location'>
+    <image src="/static/address.png"></image>
+  </navigator>
+</view>
+<view class='phone'>
+  <view class='left'>
+    <text>体验中心电话:</text>
+    <text>18839967020</text>
+  </view>
+   <!-- <image src="/static/phone.png" bindtap='makePhoneCall'></image>  -->
+   <text class='iconfont icon-phone'>{{phone}}</text>
+</view>

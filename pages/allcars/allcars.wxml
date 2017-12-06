@@ -1,0 +1,12 @@
+<!-- <view class='allcars' wx:for="{{array}}" wx:key="car"  wx:for-item="item" bindtap="carPage">
+  <view class='car-name'>{{item.text}}</view>
+  <view>
+    <image src="{{item.src}}" class='allcar' data-car-id="0001"></image>
+  </view>
+</view> -->
+<view class='allcars' wx:for="{{docs}}" wx:key="car"  wx:for-item="item" bindtap="carPage">
+  <view class='car-name'>{{item.name}}</view>
+  <view>
+    <image src="{{item.image}}" class='allcar' data-car-id="{{item._id}}"></image>
+  </view>
+</view>

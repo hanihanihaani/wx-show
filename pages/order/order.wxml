@@ -1,0 +1,27 @@
+<view class='container'>
+  <text>预约到店亲临体验</text>
+  <image src='../../static/msld5.jpg' style='width:100%'></image>
+  <form bindsubmit='formSubmit' class='form'>
+    <view class='section'>
+      <input placeholder='请输入姓名' style='width:100%' name="username"
+      ></input>
+    </view>
+    <view class='section'>
+      <input placeholder='请输入电话号码' name="phone"
+      ></input>
+    </view>
+    <view class='btn'>
+      <button formType="submit" bindtap='modalTap'>提交预约</button>
+    </view>
+  </form>
+  <toast hidden="{{toastHidden}}" bindchange="toastChange">
+      {{notice_str}}
+  </toast>
+  <!-- <view class='confirm'>
+    <modal title="确认" confirm-text="确定" cancel-text="取消" hidden="{{modalHidden}}"
+      mask bindconfirm="confirm_one" bindcancel="cancel_one"
+    >
+    确认提交吗？
+    </modal>
+  </view> -->
+</view>

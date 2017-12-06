@@ -1,0 +1,74 @@
+<view class='show'>
+  <image src='../../static/car1.jpg'></image>
+  <view class='id'>
+    <text class='left-id'>型号</text>
+    <text class='right-id'>{{carId}}</text>
+  </view>
+  <view class='power'>
+    <text class='power-left'>功率</text>
+    <text class='power-right'>{{power}}</text>  
+  </view>
+  <view class='speed'>
+    <text class='speed-left'>0-100km/h加速时间</text>
+    <text class='speed-right'>{{speed}}</text>  
+  </view>
+  <view class='highSpeed'>
+    <text class='high-left'>最高时速</text>
+    <text class='high-right'>{{highSpeed}}</text>    
+  </view>
+  <view class='oil'>
+    <text class='oil-left'>耗油量 混合（L/100km）</text>
+    <text class='oil-right'>{{oil}}</text>      
+  </view>
+  <view class='sub'>
+    <text class='sub-left'>郊区（L/100km）</text>
+    <text class='sub-right'>{{suburbs}}</text>  
+  </view>
+  <view class='price'>
+    <text class='price-left'>价格</text>
+    <text class='price-right'>{{price}}</text>  
+  </view>
+</view>
+<view class='wg'>
+  <text class='wg-title'>外观</text>
+  <text>标准颜色</text>
+  <text>金属漆颜色</text>
+</view>
+<view class='decorate'>
+  <text>内饰</text>
+</view>
+<view class='tyre'>
+  <div>轮胎</div>
+  <view wx:for="{{tyres}}" wx:key="lun"  wx:for-item="item" class='tyre-cont'>
+  <view>
+    <image src="{{item.src}}" class='allcar' data-car-id="0001"></image>
+    <view class='size'>{{item.text}}</view>
+  </view>
+</view>
+</view>
+<view class='made'>
+  <text>精选定制</text>
+   <swiper>
+  <block wx:for="{{imgUrls1}}" wx:key="made">
+    <swiper-item>
+      <image src="{{item}}" height="100"/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<view class='assemble'>
+  <text bindtap='showModal'>选装配</text>
+  <swiper>
+  <block wx:for="{{imgUrls}}" wx:key="assem">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" height="100"/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<view class='car-footer'>
+  <view class='price' bindtap='clickMe'>询价
+    <image src='../icons/us.png' class='us'></image>
+  </view>
+  <view class='book' bindtap='showAction'>预约试驾</view>
+</view>

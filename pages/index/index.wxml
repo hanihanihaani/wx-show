@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='logo'>
+    <image src='../../static/logo.jpg' style='width:200rpx;height:100rpx'></image>
+  </view>
+    <text class='logo-text'>Maserati</text>
+  <view class='content'>
+    <image src='../../static/msld.jpg' style='width:100vw'>
+      <text>以运动之名</text>
+      <button type='default' bindtap='orderPage' >预约试驾</button>
+    </image>
+     <image src='../../static/msld1.jpg' style='width:100vw'>
+      <text>天性不羁</text>
+      <button type='default' bindtap='orderPage'>预约试驾</button>
+     </image>
+    <image src='../../static/msld2.jpg' style='width:100vw'>
+      <text>一往无前</text>
+      <button type='default' bindtap='orderPage'>预约试驾</button>
+    </image>
+    <image src='../../static/msld3.jpg' style='width:100vw'>
+      <text>激情澎湃</text>
+      <button type='default' bindtap='orderPage'>预约试驾</button>
+    </image>
+    <image src='../../static/msld4.jpg' style='width:100vw'>
+      <text>炙热驱动</text>
+      <button type='default' bindtap='orderPage'>预约试驾</button>
+    </image> 
+  </view>
+</view>

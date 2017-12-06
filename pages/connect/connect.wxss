@@ -1,0 +1,69 @@
+/* pages/connect/connect.wxss */
+@font-face {
+  font-family: 'iconfont';  /* project id 490127 */
+  src: url('//at.alicdn.com/t/font_490127_sdo8nfchuecm1jor.eot');
+  src: url('//at.alicdn.com/t/font_490127_sdo8nfchuecm1jor.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_490127_sdo8nfchuecm1jor.woff') format('woff'),
+  url('//at.alicdn.com/t/font_490127_sdo8nfchuecm1jor.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_490127_sdo8nfchuecm1jor.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before { content: "\e725"; }
+
+.map {
+  width: 100%;
+}
+.map map {
+  width: 100%;
+}
+.create {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.address {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.address .left {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.address image {
+  width: 20px;
+  height: 20px;
+  margin-top: 9px;
+  border-left: 1px solid #ddd;
+  padding-left: 15px
+}
+.phone {
+  width: 90%;
+  margin: 20px auto;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.phone .left {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.phone .iconfont {
+  width: 20px;
+  height: 20px;
+  margin-top: 9px;
+  border-left: 1px solid #ddd;
+  padding-left: 15px;
+  color: 
+}

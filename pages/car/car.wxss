@@ -1,0 +1,166 @@
+/* pages/car/car.wxss */
+
+.show image {
+  width: 100%;
+}
+.show {
+  display: flex;
+  flex-direction: column;
+}
+.show .id {
+  display: flex;
+  justify-content: space-between
+}
+.show .id .left-id {
+  width: 77%;
+}
+.show .id .right-id {
+  width: 13%
+}
+.show text {
+  font-size: 14px;
+  width: 95%;
+  margin: auto
+}
+.show .power {
+  display: flex;
+  justify-content: space-between
+}
+.show .power .power-left {
+  width: 35%;
+}
+.show .power .power-right {
+  width: 55%
+}
+.show .highSpeed {
+  display: flex;
+  justify-content: space-between
+}
+.show .highSpeed .high-left {
+  width: 35%;
+}
+.show .highSpeed .high-right {
+  width: 55%
+}
+.show .speed {
+  display: flex;
+  justify-content: space-between
+}
+.show .speed .speed-left {
+  width: 35%;
+}
+.show .speed .speed-right {
+  width: 55%
+}
+.show .oil {
+  display: flex;
+  justify-content: space-between
+}
+.show .oil .oil-left {
+  width: 35%;
+}
+.show .oil .oil-right {
+  width: 55%
+}
+.show .sub {
+  display: flex;
+  justify-content: space-between
+}
+.show .sub .sub-left {
+  width: 35%;
+}
+.show .sub .sub-right {
+  width: 55%
+}
+.show .price {
+  display: flex;
+  justify-content: space-between
+}
+.show .price .price-left {
+  width: 35%;
+}
+.show .price  .price-right {
+  width: 55%
+}
+.wg {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+}
+.wg .wg-title {
+  font-size: 18px;
+}
+.wg text {
+  font-size: 14px;
+  margin-top: 10px
+}
+.decorate {
+  width: 95%;
+  margin: auto;
+}
+.tyre{
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: auto;
+}
+.made {
+  margin-left: 20px;
+}
+.tyre image {
+  width: 40px;
+  height: 40px
+}
+.tyre .size {
+  font-size: 14px;
+}
+.made {
+  width: 95%;
+  margin: auto;
+  font-size: 18px;
+}
+.made image {
+  margin-top: 20px;
+}
+.assemble {
+  width: 95%;
+  margin: auto;
+  font-size: 18px;
+}
+.assemble image {
+  margin-top: 20px;
+}
+.car-footer {
+  display: flex;
+  flex-direction:row;
+  margin-top: 30px;
+  margin-bottom: 15px
+}
+.car-footer .price {
+  width: 30%;
+  height: 37px;
+  text-align: center;
+  background-color: #ddd;
+  font-size: 12px;
+  position: relative;
+  line-height: 60px
+}
+.car-footer .book {
+  width: 70%;
+  height: 37px;
+  background-color: #000;
+  text-align: center;
+  line-height: 37px;
+  color: #fff;
+  font-size: 12px
+}
+.car-footer .price .us {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  margin-left: -7.5px;
+}

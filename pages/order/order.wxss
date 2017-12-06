@@ -1,0 +1,28 @@
+/* pages/order/order.wxss */
+
+.container >text {
+  font-size: 25px;
+  word-spacing: 5px;
+}
+.container .form {
+  width: 90%;
+}
+.container .form .section {
+  width: 90%;
+  background-color: #ddd;
+  margin: 20px auto;
+  height:70rpx;
+  padding-top: 14rpx;
+}
+.container .form .section input {
+  padding-left: 5px;
+}
+.container .form .btn {
+  margin-top: 70rpx;
+}
+.container .form button {
+  background-color: #000;
+  color: #fff;
+  height: 30px;
+  line-height: 1.5555555600000008
+}

@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/order/order",
+    "pages/allcars/allcars",
+    "pages/car/car",
+    "pages/connect/connect",
+    "pages/icons",
+    "pages/location/location"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ddd",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "text": "推荐",
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/icons/star.png",
+        "selectedIconPath": "pages/icons/start1.png"
+      },
+      {
+        "text": "所有车型",
+        "pagePath": "pages/allcars/allcars",
+        "iconPath": "pages/icons/storing.png",
+        "selectedIconPath": "pages/icons/storing1.png"
+      },
+      {
+        "text": "预约试驾",
+        "pagePath": "pages/order/order",
+        "iconPath": "pages/icons/car1.png",
+        "selectedIconPath": "pages/icons/car.png"
+      },
+      {
+        "text": "联系我们",
+        "pagePath": "pages/connect/connect",
+        "iconPath": "pages/icons/phone1.png",
+        "selectedIconPath": "pages/icons/phone.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}
